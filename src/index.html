@@ -177,7 +177,8 @@
 	<div class="container-fluid tiles-container">
 			<div class="row">
 				
-				<div class="col-md-4 bg-color-four tile text-right">
+				
+				<div class="col-md-3 bg-color-four tile text-md-right">
 					<h2 class="tile-title">My contact infos</h2>
 					<h3>Email</h3>
 					<p><a href="mailto:&#097;&#114;&#110;&#097;&#117;&#100;&#046;&#111;&#117;&#118;&#114;&#105;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#097;&#114;&#110;&#097;&#117;&#100;&#046;&#111;&#117;&#118;&#114;&#105;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></p>
@@ -185,20 +186,38 @@
 					<p><a href="tel:+&#051;&#051;&#054;&#050;&#056;&#051;&#057;&#053;&#052;&#052;&#054;">+&#051;&#051;&#032;&#054;&#032;&#050;&#056;&#032;&#051;&#057;&#032;&#053;&#052;&#032;&#052;&#054;</a></p>
 					<h3>Address</h3>
 					<address>
-						Arnaud Ouvrier,<br>
-						2 rue de la Pointe Percée,<br>
-						74000 Annecy,<br>
+						Arnaud Ouvrier<br>
+						2 rue de la Pointe Percée<br>
+						74000 Annecy<br>
 						FRANCE
 					</address>
 				</div>
-	
-				<div class="col-md-8 bg-color-three tile text-left">
-					<h2 class="tile-title">Send me a message</h2>
 					
-					
+				<div class="col-md-6 bg-color-two tile text-md-left">
+					<h2 class="tile-title" style="margin-bottom:28px">Send me a message</h2>
+					<form>
+						<div class="form-group">
+							<label for="email" class=" col-form-label">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Your email address" required>
+						</div>
+						<div class="form-group">
+							<label for="name" class=" col-form-label">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Your name" required>
+						</div>
+						
+						<div class="form-group">
+							<label for="message" class=" col-form-label">Message</label>
+							<textarea class="form-control" id="message" placeholder="Type in the message you wish to send me here ;)" rows="4" required></textarea>
+							<small class="form-text text-muted">All the informations provided will remain private and are used for recontact purposes only.</small>
+						</div>
+						<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>&ensp;Send your message</button>
+					</form>
 				</div>
-				
+				<div class="col-md-3 bg-color-one block-picture">
+						<div class="block-bg" style="background-image: url('img/letter.jpg');"></div>
+					</div>
 			</div>
+			
 		</div>
 	</section>
 
