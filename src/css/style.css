@@ -2,21 +2,6 @@ body {
 	margin-top: 54px;
 }
 
-.scroll-indicator {
-	height: 0.25em;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 100;
-	background-color: #fff;
-}
-
-.scroll-indicator-bar {
-	height: 0.25em;
-	background-color: #54f;
-	width: 0%;
-}
-
 .home-parallax {
 	height: 550px;
 	position: relative;
