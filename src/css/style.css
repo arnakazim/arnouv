@@ -1,0 +1,137 @@
+body { 
+	margin-top: 54px;
+}
+
+.scroll-indicator {
+	height: 0.25em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+	background-color: #fff;
+}
+
+.scroll-indicator-bar {
+	height: 0.25em;
+	background-color: #54f;
+	width: 0%;
+}
+
+.home-parallax {
+	height: 550px;
+	position: relative;
+	 /* color: #fff;  */
+}
+
+.home-parallax-content {
+	position: absolute;
+	top:45%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+}
+
+.home-parallax-content h1 {
+	font-size: 3em;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+.home-parallax-subtitle {
+	font-size: 2.2em;
+	font-weight: 300;
+}
+
+.home-parallax-bg {
+	background-image: url("../img/desk-2.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.home-header-buttons {
+	margin-top: 2em;
+}
+
+.section-header {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.section-title {
+	margin-bottom: 1em; 
+	/* margin-top: 2.2em; */
+	font-weight: 300;
+	/* text-transform: uppercase; */
+}
+
+.tiles-container {
+	/* margin-bottom: 1.25em; 
+	margin-top: 4em; */
+	font-weight: 400;
+	/* text-transform: uppercase; */
+}
+
+.tile-title, .tile h3 {
+	font-weight: 300;
+	/* margin-top: 1.5em; */
+	margin-bottom: 0;
+}
+
+.tile {
+	padding: 3em;
+	text-align: center;
+}
+
+.tile h3 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.tile-picture {
+	width: 50%;
+	max-width: 200px;
+	border-radius: 50%;
+	margin-bottom: 3em;
+	margin-top: 3em;
+	border: 6px solid #FAA088;
+}
+
+.block-picture {
+	padding: 0;
+	min-height: 200px;
+}
+
+.block-bg {
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.border-color-one {
+	border-color: #FAA088;
+}
+.border-color-two {
+	border-color: #FFBF76;
+}
+.border-color-three {
+	border-color: #79C5EB;
+}
+.border-color-four {
+	border-color: #6BEFA6;
+}
+
+.bg-color-one {
+	background-color: #ffcec0;
+}
+.bg-color-two {
+	background-color: #ffe2c0;
+}
+.bg-color-three {
+	background-color: #b4d8eb;
+}
+.bg-color-four {
+	background-color: #b4efcf;
+}
