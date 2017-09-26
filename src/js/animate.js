@@ -29,9 +29,7 @@ $(document).ready(function(){
    // animate
    $('html, body').animate({
        scrollTop: $(hash).offset().top - $('body').data('offset')
-     }, 750, 'swing', function(){
-       window.location.hash = hash;
-     });
+     }, 750, 'swing', function(){});
 
 });
 })
