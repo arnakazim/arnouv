@@ -1,3 +1,5 @@
+// SMOOTH SCROLL ON ANCHOR CLICK
+
 $(document).ready(function(){
 	$("#navbar a[href^='#']").click(function(e) {
 		e.preventDefault();
