@@ -1,0 +1,12 @@
+{
+    "name": "arnouvfr/app",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "Arnaud Ouvrier",
+            "email": "arnaud.ouvrier@gmail.com"
+        }
+    ]
+}
