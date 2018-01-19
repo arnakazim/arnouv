@@ -13,24 +13,24 @@
 			"dark-blue": "#75C6F5"
 		}
 	},
-	"sections": {
-		"home": {
+	"sections": [
+		{
+			"name": "home",
 			"type": "parallax",
 			"backgroundImage": "img/desk-2.jpg",
-			"content": {
-				"header": {
-					"title": {
-						"en": "Arnaud Ouvrier",
-						"fr": "Arnaud Ouvrier"
-					},
-					"subtitle": {
-						"en": "Messing around with IT since 1994.",
-						"fr" : ""
-					}
-				}
+			"title": {
+					"type": "text",
+					"en": "Arnaud Ouvrier",
+					"fr": "Arnaud Ouvrier"
+			},
+			"subtitle": {
+				"type": "text",
+				"en": "Messing around with IT since 1994.",
+				"fr" : ""
 			}
 		},
-		"about": {
+		{
+			"name": "about",
 			"type": "tiles",
 			"content": {
 				"header": {
@@ -128,7 +128,8 @@
 				]
 			}
 		},
-		"resume": {
+		{
+			"name": "resume",
 			"type": "tiles",
 			"content": {
 				"header": {
@@ -238,5 +239,5 @@
 				]
 			}
 		}
-	}
+	]
 }

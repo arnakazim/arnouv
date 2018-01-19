@@ -1,0 +1,19 @@
+{
+	"languages": {
+		"available": ["en", "fr"],
+		"default": "en"
+	},
+	"templates": {
+		"available": ["default"],
+		"defaultPage": "index",
+		"defaultTemplate": "default"
+	},
+	"attributes": {
+		"siteName": {
+			"en": "Arnaud Ouvrier"
+		},
+		"copyright": {
+			"en": "%{[date('Y')]}% &ndash; Arnaud Ouvrier"
+		}
+	}
+}
