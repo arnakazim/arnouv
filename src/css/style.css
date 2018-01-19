@@ -1,6 +1,14 @@
 body {
 	margin-top:54px;
 }
+
+.nav-link {
+	box-sizing: border-box;
+}
+
+.nav-link.active {
+	border-bottom: 2px solid #000;
+}
 	
 .btn {
 	border-radius:0;
