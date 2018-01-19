@@ -1,0 +1,242 @@
+{
+	"conf": {
+		"languages": {
+			"available": ["en", "fr"],
+			"default": "en"
+		},
+		"colors": {
+			"red": "#FFB099",
+			"dark-red": "#FA977B",
+			"yellow": "#FFF1D4",
+			"dark-yellow": "#FCDC9E",
+			"blue": "#98D1F3",
+			"dark-blue": "#75C6F5"
+		}
+	},
+	"sections": {
+		"home": {
+			"type": "parallax",
+			"backgroundImage": "img/desk-2.jpg",
+			"content": {
+				"header": {
+					"title": {
+						"en": "Arnaud Ouvrier",
+						"fr": "Arnaud Ouvrier"
+					},
+					"subtitle": {
+						"en": "Messing around with IT since 1994.",
+						"fr" : ""
+					}
+				}
+			}
+		},
+		"about": {
+			"type": "tiles",
+			"content": {
+				"header": {
+					"title": {
+						"en": "About me",
+						"fr": "À propos de moi"
+					},
+					"subtitle": {
+						"en": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.",
+						"fr" : ""
+					}
+				},
+				"body": [
+					{
+						"type": "tile",
+						"color": "red",
+						"cols": 4,
+						"title": {
+							"en": "Who am I?",
+							"fr": ""
+						},
+						"content": [
+							{
+								"type": "imgFluid",
+								"image": "img/portrait.jpg",
+								"borderColor": "dark-red",
+								"alt": {
+									"en": null,
+									"fr": null
+								}
+							},
+							{
+								"type": "text",
+								"text": {
+									"en": "I am Arnaud Ouvrier and 23 years old. I am from France. I am a web developer but also a network administrator.",
+									"fr": ""
+								}
+							}
+						]
+					},
+					{
+						"type": "tile",
+						"color": "yellow",
+						"cols": 4,
+						"title": {
+							"en": "Where am I?",
+							"fr": ""
+						},
+						"content": [
+							{
+								"type": "imgFluid",
+								"image": "img/globe-2.jpg",
+								"borderColor": "dark-yellow",
+								"alt": {
+									"en": null,
+									"fr": null
+								}
+							},
+							{
+								"type": "text",
+								"text": {
+									"en": "Here and there accordingly to my travels. I am actually near Versailles, France. I love discovering new places.",
+									"fr": ""
+								}
+							}
+						]
+					},
+					{
+						"type": "tile",
+						"color": "blue",
+						"cols": 4,
+						"title": {
+							"en": "What do I do?",
+							"fr": ""
+						},
+						"content": [
+							{
+								"type": "imgFluid",
+								"image": "img/computer-2.jpg",
+								"borderColor": "dark-blue",
+								"alt": {
+									"en": null,
+									"fr": null
+								}
+							},
+							{
+								"type": "text",
+								"text": {
+									"en": "I am web developing, hacking, traveling... I like to do a lot of things from web developement to car mechanic.",
+									"fr": ""
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"resume": {
+			"type": "tiles",
+			"content": {
+				"header": {
+					"title": {
+						"en": "My curriculum",
+						"fr": ""
+					},
+					"subtitle": {
+						"en": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.",
+						"fr" : ""
+					},
+					"button": {
+						"type": "primary",
+						"icon": "fa fa-download",
+						"link": {
+							"en": "#",
+							"fr": "#"
+						},
+						"text": {
+							"en": "Download my resume",
+							"fr": ""
+						}
+					}
+				},
+				"body": [
+					{
+						"type": "tile",
+						"color": "red",
+						"cols": 4,
+						"title": {
+							"en": "Who am I?",
+							"fr": ""
+						},
+						"content": [
+							{
+								"type": "imgFluid",
+								"image": "img/portrait.jpg",
+								"borderColor": "dark-red",
+								"alt": {
+									"en": null,
+									"fr": null
+								}
+							},
+							{
+								"type": "text",
+								"text": {
+									"en": "I am Arnaud Ouvrier and 23 years old. I am from France. I am a web developer but also a network administrator.",
+									"fr": ""
+								}
+							}
+						]
+					},
+					{
+						"type": "tile",
+						"color": "yellow",
+						"cols": 4,
+						"title": {
+							"en": "Where am I?",
+							"fr": ""
+						},
+						"content": [
+							{
+								"type": "imgFluid",
+								"image": "img/globe-2.jpg",
+								"borderColor": "dark-yellow",
+								"alt": {
+									"en": null,
+									"fr": null
+								}
+							},
+							{
+								"type": "text",
+								"text": {
+									"en": "Here and there accordingly to my travels. I am actually near Versailles, France. I love discovering new places.",
+									"fr": ""
+								}
+							}
+						]
+					},
+					{
+						"type": "tile",
+						"color": "blue",
+						"cols": 4,
+						"title": {
+							"en": "What do I do?",
+							"fr": ""
+						},
+						"content": [
+							{
+								"type": "imgFluid",
+								"image": "img/computer-2.jpg",
+								"borderColor": "dark-red",
+								"alt": {
+									"en": null,
+									"fr": null
+								}
+							},
+							{
+								"type": "text",
+								"text": {
+									"en": "I am web developing, hacking, traveling... I like to do a lot of things from web developement to car mechanic.",
+									"fr": ""
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}
