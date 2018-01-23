@@ -1,0 +1,26 @@
+{
+    "siteName": "Arnaud Ouvrier",
+
+    "homeParallaxTitle": "Arnaud Ouvrier",
+    "homeParallaxSubtitle": "Messing around with IT since 1994.",
+
+    "aboutSectionTitle": "About me",
+    "aboutSectionSubtitle": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.",
+
+    "whoAmITileTitle": "Who am I?",
+    "whoAmITileSubText": "I am Arnaud Ouvrier and 23 years old. I am from France. I am a web developer but also a network administrator",
+
+    "whereAmITileTitle": "Where am I?",
+    "whereAmITileText": "Here and there accordingly to my travels. I am actually near Versailles, France. I love discovering new places.",
+
+    "whatDoIDoTileTitle": "What do I do?",
+    "whatDoIDoTileText": "I am web developing, hacking, traveling... I like to do a lot of things from web developement to car mechanic.",
+
+    "resumeSectionTitle": "My curriculum",
+    "resumeSectionSubtitle": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.",
+    "resumeSectionButtonLink": "#",
+    "resumeSectionButtonText": "Download my resume",
+
+    "contactSectionTitle": "Contact me",
+    "contactSectionSubtitle": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France."
+}

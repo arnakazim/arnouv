@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>%{siteName}%</title>
+	<title>Arnaud Ouvrier</title>
 	<link rel="icon" href="img/favicon.ico" />
 
 	<!-- Bootstrap CSS -->
@@ -18,7 +18,7 @@
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#home">
 				<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-				%{siteName}%
+				Arnaud Ouvrier
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -48,8 +48,8 @@
 		<div class="home-parallax-content container">
 			<div class="row">
 				<div class="home-parallax-header col-12 text-center">
-					<h1 class="home-parallax-title">%{homeParallaxTitle}%</h1>
-					<p class="home-parallax-subtitle">%{homeParallaxSubtitle}%</p>
+					<h1 class="home-parallax-title">Arnaud Ouvrier</h1>
+					<p class="home-parallax-subtitle">Messing around with IT since 1994.</p>
 				</div>
 			</div>
 		</div>
@@ -61,8 +61,8 @@
 	<div class="container">
 		<div class="row justify-content-center section-header">
 			<div class="col-md-8 text-center">
-				<h2 class="section-title">%{aboutSectionTitle}%</h2>
-				<p class="lead">%{aboutSectionSubtitle}%</p>
+				<h2 class="section-title">About me</h2>
+				<p class="lead">Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.</p>
 			</div>
 			
 		</div>
@@ -71,23 +71,23 @@
 		<div class="row">
 			
 			<div class="col-md-4 bg-color-one tile">
-				<h3 class="tile-title">%{whoAmITileTitle}%</h3>
+				<h3 class="tile-title">Who am I?</h3>
 				<img class="img-fluid tile-picture border-color-one" src="img/portrait.jpg" alt="My portrait">
-				<p class="tile-text">%{whoAmITileSubText}%</p>
+				<p class="tile-text">I am Arnaud Ouvrier and 23 years old. I am from France. I am a web developer but also a network administrator.</p>
 				
 			</div>
 
 			<div class="col-md-4 bg-color-two tile">
-				<h3 class="tile-title">%{whereAmITileTitle}%</h3>
+				<h3 class="tile-title">Where am I?</h3>
 				<img class="img-fluid tile-picture border-color-two" src="img/globe-2.jpg" alt="A earth globe">
-				<p class="tile-text">%{whereAmITileText}%</p>
+				<p class="tile-text">Here and there accordingly to my travels. I am actually near Versailles, France. I love discovering new places.</p>
 				
 			</div>
 
 			<div class="col-md-4 bg-color-three tile">
-				<h3 class="tile-title">%{whatDoIDoTileTitle}%</h3>
+				<h3 class="tile-title">What do I do?</h3>
 				<img class="img-fluid tile-picture border-color-three" src="img/computer-2.jpg" alt="My portrait">
-				<p class="">%{whatDoIDoTileText}%</p>
+				<p class="">I am web developing, hacking, traveling... I like to do a lot of things from web developement to car mechanic.</p>
 			</div>
 			
 		</div>
@@ -97,9 +97,9 @@
 	<div class="container">
 		<div class="row justify-content-center section-header">
 			<div class="col-md-8 text-center">
-				<h2 class="section-title">%{resumeSectionTitle}%</h2>
-				<p class="lead">%{resumeSectionSubtitle}%</p>
-				<p class="section-button"><a href="%{resumeSectionButtonLink}%" class="btn btn-primary" download><i class="fa fa-download"></i>&ensp;%{resumeSectionButtonText}%</a></p>
+				<h2 class="section-title">My curriculum</h2>
+				<p class="lead">Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.</p>
+				<p class="section-button"><a href="#" class="btn btn-primary" download><i class="fa fa-download"></i>&ensp;Download my resume</a></p>
 			</div>
 			
 		</div>
@@ -172,8 +172,8 @@
 	<div class="container">
 		<div class="row justify-content-center section-header">
 			<div class="col-md-8 text-center">
-				<h2 class="section-title">%{contactSectionTitle}%</h2>
-				<p class="lead">%{contactSectionSubtitle}%</p>
+				<h2 class="section-title">Contact me</h2>
+				<p class="lead">Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.</p>
 			</div>
 			
 		</div>
