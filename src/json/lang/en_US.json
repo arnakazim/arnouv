@@ -1,6 +1,10 @@
 {
     "siteName": "Arnaud Ouvrier",
 
+    "menuAboutAnchorText": "About",
+    "menuAboutResumeText": "Resume",
+    "menuAboutContactText": "Contact Me",
+
     "homeParallaxTitle": "Arnaud Ouvrier",
     "homeParallaxSubtitle": "Messing around with IT since 1994.",
 
@@ -21,6 +25,61 @@
     "resumeSectionButtonLink": "#",
     "resumeSectionButtonText": "Download my resume",
 
+    "resumeEducationTitle": "My education",
+    
+    "resumeEducation201617Title": "2016 &ndash; 2017",
+    "resumeEducation201617Text": "Master student in Telecom and IT Networks at the UFR Sciences et Montagne of the University Savoie Mont Blanc (Le Bourget, France)",
+    "resumeEducation201516Title": "2015 &ndash; 2016",
+    "resumeEducation201516Text": "Bachelor's degree in Telecom and IT Networks during an ERSAMUS exchange between the University Savoie Mont Blanc (France) and Centria University of Applied Science (Kokkola, Finland)",
+    "resumeEducation201315Title": "2013 &ndash; 2015",
+    "resumeEducation201315Text": "DUT IT Networks and Telecom (Universitary Diploma of Technology) at the IUT of Annecy of the University Savoie Mont Blanc (Annecy, France)",
+    "resumeEducation2013Title": "2013",
+    "resumeEducation2013Text": "Baccalaureate Industrial Sciences and Technics at the highschool Louis Lachenal (Argonay, France)",
+
+    "resumeExperiencesTitle": "My experiences",
+    
+    "resumeExperiencesNutriTitle": "2017 - Nutrimetics France",
+    "resumeExperiencesNutriText": "Web developer at Nutrimetics France. I am working on the new digital face of the company by developing a new website including an eshop and a platform where customers can get in touch with beauty professionals.",
+    "resumeExperiencesILookTitle": "2017 - ILookAndGo",
+    "resumeExperiencesILookText": "Android developer of the ILookAndGo app. ILookAndGo is an app made to help people find the best touristic places (hotels, restaurants...) matching their personal criterias.",
+    "resumeExperiencesProjTelTitle": "2016 - Telephony project",
+    "resumeExperiencesProjTelText": "Scholar project for Voxity. Automating the installation of a cloud based telephony system. Usage of Asterisk IPBX, Wazo, OpenStack and OpenVPN.",
+    "resumeExperiencesProjHomeTitle": "2015 - Home automation project",
+    "resumeExperiencesProjHomeText": "Creation of a REST API, a web based user interface, a communication protocol between an Arduino, a Raspberry Pi and a pre-existing home automation controller.",
+    
+    "resumeSkillsTitle": "My skillset",
+    
+    "resumeSkillsDevTitle": "Development",
+    "resumeSkillsDevText": " have started developing in 2006. Since then I have learned how to develop for the web with PHP, JavaScript, HTML5/CSS3 and how to use the main frameworks (WordPress...). I can also program in C++, C#, Java (J2E, Android) and Python.",
+    "resumeSkillsRTTitle": "Networks and Telecomunications",
+    "resumeSkillsRTText": "Android developer of the ILookAndGo app. ILookAndGo is an app made to help people find the best touristic places (hotels, restaurants...) matching their personal criterias.",
+    "resumeSkillsElecTitle": "Electronics",
+    "resumeSkillsElecText": "Scholar project for Voxity. Automating the installation of a cloud based telephony system. Usage of Asterisk IPBX, Wazo, OpenStack and OpenVPN.",
+    "resumeSkillsLangTitle": "Languages",
+    "resumeSkillsLangText": "I am a French native speaker with a C2 European English level. I have also some basics in German.",
+    
     "contactSectionTitle": "Contact me",
-    "contactSectionSubtitle": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France."
+    "contactSectionSubtitle": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am curently <strong>web developer</strong> at Nutrimetics France.",
+
+    "contactInfosTitle": "My contact infos",
+    "contactInfosEmailTitle": "Email",
+    "contactInfosEmailLink": "&#097;&#114;&#110;&#097;&#117;&#100;&#046;&#111;&#117;&#118;&#114;&#105;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;",
+    "contactInfosEmailText": "&#097;&#114;&#110;&#097;&#117;&#100;&#046;&#111;&#117;&#118;&#114;&#105;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;",
+    "contactInfosPhoneTitle": "Phone number",
+    "contactInfosPhoneLink": "+&#051;&#051;&#032;&#054;&#032;&#050;&#056;&#032;&#051;&#057;&#032;&#053;&#052;&#032;&#052;&#054;",
+    "contactInfosPhoneText": "+&#051;&#051;&#032;&#054;&#032;&#050;&#056;&#032;&#051;&#057;&#032;&#053;&#052;&#032;&#052;&#054;",
+    "contactInfosAddressTitle": "Address",
+    "contactInfosAddressText": "Arnaud Ouvrier<br>2 rue de la Pointe Percée<br>74000 Annecy<br>FRANCE",
+    "contactFormTitle": "Send me a message",
+    "contactFormEmailLabel": "Email",
+    "contactFormEmailPlaceholder": "Your email address",
+    "contactFormNameLabel": "Name",
+    "contactFormNamePlaceholder": "Your name",
+    "contactFormMessageLabel": "Message",
+    "contactFormMessagePlaceholder": "Type in the message you wish to send me here ;)",
+    "contactFormPrivacyDisclaimer": "All the informations provided will remain private and are used for recontact purposes only.",
+    "contactFormButtonText": "Send your message",
+
+    "footerCopyright": "&copy; 2018 &ndash; Arnaud Ouvrier",
+    "footerMadeBy": "Made with <span class=\"text-danger\"><i class=\"fa fa-heart\"></i></span> by myself &#128521;"
 }
