@@ -1,0 +1,88 @@
+{
+    "siteName": "Arnaud Ouvrier",
+
+    "menuAboutAnchorText": "About",
+    "menuResumeText": "Resume",
+    "menuContactText": "Contact Me",
+
+    "menuLangLink": "/",
+    "menuLangText": "en français",
+
+    "homeParallaxTitle": "Arnaud Ouvrier",
+    "homeParallaxSubtitle": "Messing around with IT since 1994.",
+
+    "aboutSectionTitle": "About me",
+    "aboutSectionSubtitle": "Hello, my name is <strong>Arnaud Ouvrier</strong>. I come from the French Alps and leave near Versailles, France. I am currently <strong>web developer</strong> at Nutrimetics France.",
+
+    "whoAmITileTitle": "Who am I?",
+    "whoAmITileSubText": "My name is Arnaud Ouvrier and 24 years old. I am from France. I am a web developer but also a network administrator",
+
+    "whereAmITileTitle": "Where am I?",
+    "whereAmITileText": "Here and there, accordingly to my travels. I am actually near Versailles, France. I love discovering new places.",
+
+    "whatDoIDoTileTitle": "What do I do?",
+    "whatDoIDoTileText": "I am web developing, hacking, traveling... I like to do a lot of things from web development to car mechanic.",
+
+    "resumeSectionTitle": "My resume",
+    "resumeSectionSubtitle": "Small summary of my skillset I learn during my studies and work. You can download the PDF version to access it offline.",
+    "resumeSectionButtonLink": "#",
+    "resumeSectionButtonText": "Download my resume",
+    "resumeSectionButtonTitle": "Sorry, the PDF version of my resume is not available at the moment :(",
+
+    "resumeEducationTitle": "My education",
+    
+    "resumeEducation201617Title": "2016 &ndash; 2017",
+    "resumeEducation201617Text": "Master student in Telecom and IT Networks at the UFR Sciences et Montagne of the University Savoie Mont Blanc (Le Bourget, France)",
+    "resumeEducation201516Title": "2015 &ndash; 2016",
+    "resumeEducation201516Text": "Bachelor's degree in Telecom and IT Networks during an ERSAMUS exchange between the University Savoie Mont Blanc (France) and Centria University of Applied Science (Kokkola, Finland)",
+    "resumeEducation201315Title": "2013 &ndash; 2015",
+    "resumeEducation201315Text": "DUT IT Networks and Telecom (Universitary Diploma of Technology) at the IUT of Annecy of the University Savoie Mont Blanc (Annecy, France)",
+    "resumeEducation2013Title": "2013",
+    "resumeEducation2013Text": "Baccalaureate Industrial Sciences and Technics at the high-school Louis Lachenal (Argonay, France)",
+
+    "resumeExperiencesTitle": "My experiences",
+    
+    "resumeExperiencesNutriTitle": "2017 &ndash; Today - Nutrimetics France",
+    "resumeExperiencesNutriText": "Web developer and network administrator at Nutrimetics France. I am working on the new digital face of the company. I have developed the new website including an eshop, a platform where customers can get in touch with beauty professionals and an order management interface for our sellers.",
+    "resumeExperiencesProjTelTitle": "2016 - Telephony project",
+    "resumeExperiencesProjTelText": "Scholar project for Voxity. Automating the installation of a cloud based telephony system. Usage of Asterisk IPBX, Wazo, OpenStack and OpenVPN.",
+    "resumeExperiencesProjHomeTitle": "2015 - Home automation project",
+    "resumeExperiencesProjHomeText": "Creation of a REST API, a web based user interface, a communication protocol between an Arduino, a Raspberry Pi and a pre-existing home automation controller.",
+    
+    "resumeSkillsTitle": "My skillset",
+    
+    "resumeSkillsDevTitle": "Development",
+    "resumeSkillsDevText": "I have started developing in 2006. Since then I have learned how to develop for the web with PHP, JavaScript, HTML5/CSS3 and how to use the main frameworks (WordPress...). I can also program in C++, C#, Java (J2E, Android) and Python.",
+    "resumeSkillsRTTitle": "Networks and Telecomunications",
+    "resumeSkillsRTText": "With my studies and my work at Nutrimeetics France, I have learned Windows and Linux (RedHat, Debian) server administration, mobile and local telephony and IT system and networks security. I was also part of the ethical hacking club of Annecy's IUT and participated in some hacking CTF and security keynotes.",
+    "resumeSkillsElecTitle": "Electronics",
+    "resumeSkillsElecText": "During my studies I have also learned telecommunication electronics. Beside, I have also developed some skills by creating embedded electronic systems using Arduino and Raspberry Pi",
+    "resumeSkillsLangTitle": "Languages",
+    "resumeSkillsLangText": "I am a French native speaker with a C2 European English level. I have also some basics in German.",
+    
+    "contactSectionTitle": "Contact me",
+    "contactSectionSubtitle": "If you wish to contact me, you can send me an email or use the form below.",
+
+    "contactInfosTitle": "My contact info",
+    "contactInfosEmailTitle": "Email",
+    "contactInfosEmailLink": "&#097;&#114;&#110;&#097;&#117;&#100;&#064;&#097;&#114;&#110;&#097;&#117;&#100;&#111;&#117;&#118;&#114;&#105;&#101;&#114;&#046;&#102;&#114;",
+    "contactInfosEmailText": "&#097;&#114;&#110;&#097;&#117;&#100;&#064;&#097;&#114;&#110;&#097;&#117;&#100;&#111;&#117;&#118;&#114;&#105;&#101;&#114;&#046;&#102;&#114;",
+    "contactInfosPhoneTitle": "Phone number",
+    "contactInfosPhoneLink": "+&#051;&#051;&#032;&#054;&#032;&#050;&#056;&#032;&#051;&#057;&#032;&#053;&#052;&#032;&#052;&#054;",
+    "contactInfosPhoneText": "+&#051;&#051;&#032;&#054;&#032;&#050;&#056;&#032;&#051;&#057;&#032;&#053;&#052;&#032;&#052;&#054;",
+    "contactInfosAddressTitle": "Address",
+    "contactInfosAddressText": "Arnaud Ouvrier<br>2 rue de la Pointe Percée<br>74000 Annecy<br>FRANCE",
+    "contactFormTitle": "Send me a message",
+    "contactFormEmailLabel": "Email",
+    "contactFormEmailPlaceholder": "Your email address",
+    "contactFormNameLabel": "Name",
+    "contactFormNamePlaceholder": "Your name",
+    "contactFormMessageLabel": "Message",
+    "contactFormMessagePlaceholder": "Type in the message you wish to send me here ;)",
+    "contactFormPrivacyDisclaimer": "All the information provided will remain private and are used for recontact purposes only.",
+    "contactFormButtonText": "Send your message",
+    "contactFormAlertText": "Your message has been sent! :)",
+
+    "footerCopyright": "&copy; 2019 &ndash; Arnaud Ouvrier",
+    "footerMadeBy": "Made with <span class=\"text-danger\"><i class=\"fa fa-heart\"></i></span> by myself &#128521;"
+}

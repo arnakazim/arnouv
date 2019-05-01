@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="%{language}%">
+
+<head>
+	<base href="/">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>%{siteName}%</title>
+	<link rel="icon" href="img/favicon.ico" />
+
+	<link rel="alternate" hreflang="en" href="https://www.arnaudouvrier.fr/en/" />
+	<link rel="alternate" hreflang="fr" href="https://www.arnaudouvrier.fr/" />
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="54">
+	<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light hidden">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#home">
+				<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+				%{siteName}%
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#about">%{menuAboutAnchorText}%</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#resume">%{menuResumeText}%</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">%{menuContactText}%</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
+					<a href="https://www.linkedin.com/in/arnaud-ouvrier/" target="_blank"><i class="fa fa-linkedin"></i></a>&ensp;
+					<a href="https://github.com/arnakazim" target="_blank"><i class="fa fa-github"></i></a>&ensp;
+					<a href="https://twitter.com/arnakazim" target="_blank"><i class="fa fa-twitter"></i></a>&ensp;&ensp;
+					<a href="%{menuLangLink}%"><i class="fa fa-globe"></i>&ensp;%{menuLangText}%</a>
+				</span>
+			</div>
+		</div>
+	</nav>
+	<section id="home">
+		<div class="home-parallax">
+			<div class="home-parallax-content container">
+				<div class="row">
+					<div class="home-parallax-header col-12 text-center">
+						<h1 class="home-parallax-title">%{homeParallaxTitle}%</h1>
+						<p class="home-parallax-subtitle">%{homeParallaxSubtitle}%</p>
+					</div>
+				</div>
+			</div>
+			<div class="home-parallax-bg" style="background-image: url('img/desk-2.jpg');"></div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<div class="row justify-content-center section-header">
+				<div class="col-md-8 text-center">
+					<h2 class="section-title">%{aboutSectionTitle}%</h2>
+					<p class="lead">%{aboutSectionSubtitle}%</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="container-fluid tiles-container">
+			<div class="row">
+
+				<div class="col-md-4 bg-color-one tile">
+					<h3 class="tile-title">%{whoAmITileTitle}%</h3>
+					<img class="img-fluid tile-picture border-color-one" src="img/portrait.jpg" alt="My portrait">
+					<p class="tile-text">%{whoAmITileSubText}%</p>
+
+				</div>
+
+				<div class="col-md-4 bg-color-two tile">
+					<h3 class="tile-title">%{whereAmITileTitle}%</h3>
+					<img class="img-fluid tile-picture border-color-two" src="img/globe-2.jpg" alt="A earth globe">
+					<p class="tile-text">%{whereAmITileText}%</p>
+
+				</div>
+
+				<div class="col-md-4 bg-color-three tile">
+					<h3 class="tile-title">%{whatDoIDoTileTitle}%</h3>
+					<img class="img-fluid tile-picture border-color-three" src="img/computer-2.jpg" alt="My portrait">
+					<p class="">%{whatDoIDoTileText}%</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="resume">
+		<div class="container">
+			<div class="row justify-content-center section-header">
+				<div class="col-md-8 text-center">
+					<h2 class="section-title">%{resumeSectionTitle}%</h2>
+					<p class="lead">%{resumeSectionSubtitle}%</p>
+					<p class="section-button"><a href="%{resumeSectionButtonLink}%" class="btn btn-primary disabled" download
+							data-toggle="tooltip" data-placement="bottom" title="%{resumeSectionButtonTitle}%"><i
+								class="fa fa-download"></i>&ensp;%{resumeSectionButtonText}%</a></p>
+				</div>
+
+			</div>
+		</div>
+		<div class="container-fluid tile-container">
+			<div class="row">
+
+				<div class="col-md-6 bg-color-three block-picture order-md-2">
+					<div class="block-bg" style="background-image: url('img/education-2.jpg');"></div>
+				</div>
+
+				<div class="col-md-6 bg-color-three tile order-md-1 text-center text-md-right">
+					<h3 class="tile-title">%{resumeEducationTitle}%</h3>
+					<h4 class="tile-secondary">%{resumeEducation201617Title}%</h4>
+					<p>%{resumeEducation201617Text}%</p>
+					<h4 class="tile-secondary">%{resumeEducation201516Title}%</h4>
+					<p>%{resumeEducation201516Text}%</p>
+					<h4 class="tile-secondary">%{resumeEducation201315Title}%</h4>
+					<p>%{resumeEducation201315Text}%</p>
+					<h4 class="tile-secondary">%{resumeEducation2013Title}%</h4>
+					<p>%{resumeEducation2013Text}%</p>
+
+				</div>
+
+			</div>
+			<div class="row">
+
+				<div class="col-md-6 bg-color-three block-picture order-md-1">
+					<div class="block-bg" style="background-image: url('img/experiences-2.jpg');"></div>
+				</div>
+
+				<div class="col-md-6 bg-color-two tile order-md-2 text-center text-md-left">
+					<h3 class="tile-title">%{resumeExperiencesTitle}%</h3>
+					<h4 class="tile-secondary">%{resumeExperiencesNutriTitle}%</h4>
+					<p>%{resumeExperiencesNutriText}%</p>
+					<h4 class="tile-secondary">%{resumeExperiencesProjTelTitle}%</h4>
+					<p>%{resumeExperiencesProjTelText}%</p>
+					<h4 class="tile-secondary">%{resumeExperiencesProjHomeTitle}%</h4>
+					<p>%{resumeExperiencesProjHomeText}%</p>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6 bg-color-three block-picture order-md-2">
+					<div class="block-bg" style="background-image: url('img/skillset-2.jpg');"></div>
+				</div>
+
+				<div class="col-md-6 bg-color-one tile order-md-1 text-center text-md-right">
+					<h3 class="tile-title">%{resumeSkillsTitle}%</h3>
+					<h4 class="tile-secondary">%{resumeSkillsDevTitle}%</h4>
+					<p>%{resumeSkillsDevText}%</p>
+					<h4 class="tile-secondary">%{resumeSkillsRTTitle}%</h4>
+					<p>%{resumeSkillsRTText}%</p>
+					<h4 class="tile-secondary">%{resumeSkillsElecTitle}%</h4>
+					<p> %{resumeSkillsElecText}%</p>
+					<h4 class="tile-secondary">%{resumeSkillsLangTitle}%</h4>
+					<p>%{resumeSkillsLangText}%</p>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="row justify-content-center section-header">
+				<div class="col-md-8 text-center">
+					<h2 class="section-title">%{contactSectionTitle}%</h2>
+					<p class="lead">%{contactSectionSubtitle}%</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="container-fluid tiles-container">
+			<div class="row">
+
+				<div class="col-md-3 order-md-3 bg-color-one block-picture">
+					<div class="block-bg" style="background-image: url('img/letter.jpg');"></div>
+				</div>
+
+				<div class="col-md-3 order-md-1 bg-color-three tile text-md-right">
+					<h3 class="tile-title">%{contactInfosTitle}%</h3>
+					<h4 class="tile-secondary">%{contactInfosEmailTitle}%</h4>
+					<p><a href="mailto:%{contactInfosEmailLink}%">%{contactInfosEmailText}%</a></p>
+					<h4 class="tile-secondary">%{contactInfosPhoneTitle}%</h4>
+					<p><a href="tel:%{contactInfosPhoneLink}%">%{contactInfosPhoneText}%</a></p>
+					<h4 class="tile-secondary">%{contactInfosAddressTitle}%</h4>
+					<address>
+						%{contactInfosAddressText}%
+					</address>
+				</div>
+
+				<div class="col-md-6 order-md-2 bg-color-two tile text-md-left">
+					<h3 class="tile-title">%{contactFormTitle}%</h3>
+					<div class="alert alert-success" role="alert" style="margin-top: 1rem; %{displayFormSuccess}%">
+						%{contactFormAlertText}%
+					</div>
+					<form class="tile-form" method="post" action="#contact">
+						<div class="form-group">
+							<label for="email" class=" col-form-label">%{contactFormEmailLabel}%</label>
+							<input type="email" class="form-control" name="email" id="email"
+								placeholder="%{contactFormEmailPlaceholder}%" required>
+						</div>
+						<div class="form-group">
+							<label for="name" class=" col-form-label">%{contactFormNameLabel}%</label>
+							<input type="text" class="form-control" name="name" id="name"
+								placeholder="%{contactFormNamePlaceholder}%" required>
+						</div>
+
+						<div class="form-group">
+							<label for="message" class=" col-form-label">%{contactFormMessageLabel}%</label>
+							<textarea class="form-control" name="message" id="message"
+								placeholder="%{contactFormMessagePlaceholder}%" rows="4" required></textarea>
+							<small class="form-text text-muted">%{contactFormPrivacyDisclaimer}%</small>
+						</div>
+						<button type="submit" class="btn btn-primary"><i
+								class="fa fa-paper-plane"></i>&ensp;%{contactFormButtonText}%</button>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="footer bg-light text-center">
+		<span class="text-muted">
+			%{footerCopyright}%<br>
+			<span class="small">
+				%{footerMadeBy}%
+			</span>
+		</span>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+		integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+		crossorigin="anonymous"></script>
+	<script src="js/animate.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.arnaudouvrier.fr/$1 [R=301,L]
+
+RewriteRule ^en/$ /index.php?lang=en-US [NC,L]
