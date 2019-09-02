@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="54">
@@ -45,9 +47,11 @@
 					</li>
 				</ul>
 				<span class="navbar-text">
-					<a href="https://www.linkedin.com/in/arnaud-ouvrier/" target="_blank"><i class="fa fa-linkedin"></i></a>&ensp;
+					<a href="https://www.linkedin.com/in/arnaud-ouvrier/" target="_blank"><i
+							class="fa fa-linkedin"></i></a>&ensp;
 					<a href="https://github.com/arnakazim" target="_blank"><i class="fa fa-github"></i></a>&ensp;
-					<a href="https://twitter.com/arnakazim" target="_blank"><i class="fa fa-twitter"></i></a>&ensp;&ensp;
+					<a href="https://twitter.com/arnakazim" target="_blank"><i
+							class="fa fa-twitter"></i></a>&ensp;&ensp;
 					<a href="%{menuLangLink}%"><i class="fa fa-globe"></i>&ensp;%{menuLangText}%</a>
 				</span>
 			</div>
@@ -109,8 +113,9 @@
 				<div class="col-md-8 text-center">
 					<h2 class="section-title">%{resumeSectionTitle}%</h2>
 					<p class="lead">%{resumeSectionSubtitle}%</p>
-					<p class="section-button"><a href="%{resumeSectionButtonLink}%" class="btn btn-primary disabled" download
-							data-toggle="tooltip" data-placement="bottom" title="%{resumeSectionButtonTitle}%"><i
+					<p class="section-button"><a href="%{resumeSectionButtonLink}%" class="btn btn-primary disabled"
+							download data-toggle="tooltip" data-placement="bottom"
+							title="%{resumeSectionButtonTitle}%"><i
 								class="fa fa-download"></i>&ensp;%{resumeSectionButtonText}%</a></p>
 				</div>
 
@@ -229,6 +234,9 @@
 							<textarea class="form-control" name="message" id="message"
 								placeholder="%{contactFormMessagePlaceholder}%" rows="4" required></textarea>
 							<small class="form-text text-muted">%{contactFormPrivacyDisclaimer}%</small>
+						</div>
+						<div class="form-group">
+							<div class="g-recaptcha" data-sitekey="6LdpMLYUAAAAACknD9Skjg0YEth9pgwiiOqXhXHC"></div>
 						</div>
 						<button type="submit" class="btn btn-primary"><i
 								class="fa fa-paper-plane"></i>&ensp;%{contactFormButtonText}%</button>

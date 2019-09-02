@@ -10,22 +10,42 @@ $pageDir = 'html';
 $displayFormSuccess = false;
 if (!empty($_POST)) {
     $post = (object) $_POST;
-    
+
     if (isset($post->email,  $post->name, $post->message)) {
         $post->email = htmlspecialchars($post->email);
         $post->name = htmlspecialchars($post->name);
         $post->message = htmlspecialchars($post->message);
 
-        $message = 'Sent from arnaudouvrier.fr (' . date('Y-m-d H-i-s') . ') by '
-            . $post->name . ' <' . $post->email . '>:' . "\r\n\r\n"
-            . $post->message;
 
-        $to = 'arnaud@arnaudouvrier.fr';
-        $subject = $post->name . ' has contacted you';
-        $headers = 'From: noreply@arnaudouvrier.fr' . "\r\n" . 'Reply-to: ' . $post->email . "\r\n";
+        $response = $post->{'g-recaptcha-response'};
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $data = array(
+            'secret' => 'SECRET_KEY',
+            'response' => $response
+        );
+        $options = array(
+            'http' => array(
+                'method' => 'POST',
+                'content' => http_build_query($data)
+            )
+        );
+        $context  = stream_context_create($options);
+        $verify = file_get_contents($url, false, $context);
+        $captcha_success = json_decode($verify);
+        if ($captcha_success->success == false) {
+            $displayFormSuccess = false;
+        } else if ($captcha_success->success == true) {
+            $message = 'Sent from arnaudouvrier.fr (' . date('Y-m-d H-i-s') . ') by '
+                . $post->name . ' <' . $post->email . '>:' . "\r\n\r\n"
+                . $post->message;
 
-        @mail($to, $subject, $message, $headers);
-        $displayFormSuccess = true;
+            $to = 'arnaud@arnaudouvrier.fr';
+            $subject = $post->name . ' has contacted you';
+            $headers = 'From: noreply@arnaudouvrier.fr' . "\r\n" . 'Reply-to: ' . $post->email . "\r\n";
+
+            @mail($to, $subject, $message, $headers);
+            $displayFormSuccess = true;
+        }
     }
 }
 
@@ -35,8 +55,8 @@ if (isset($_GET['lang'])) {
     $availableLanguages = array();
     $langFiles = array_diff(scandir($langDir), array('..', '.'));
 
-    foreach($langFiles as $k => $v) {
-        if(substr($v, -5) === '.json') {
+    foreach ($langFiles as $k => $v) {
+        if (substr($v, -5) === '.json') {
             $availableLanguages[] = substr($v, 0, -5);
         }
     }
@@ -55,7 +75,7 @@ if (isset($_GET['page'])) {
     $page = $_GET['page'];
 }
 
-$pageHtml = file_get_contents($pageDir. DIRECTORY_SEPARATOR . $page . '.html');
+$pageHtml = file_get_contents($pageDir . DIRECTORY_SEPARATOR . $page . '.html');
 
 $pageHtml = str_replace(
     '%{displayFormSuccess}%',
